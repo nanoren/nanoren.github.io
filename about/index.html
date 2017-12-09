@@ -212,31 +212,6 @@
                   carouselResize();
               </script>
             
-              
-                <div class="item" style="max-height:600px; overflow: hidden;">
-              
-                <img id="carousel-img2" src="https://source.unsplash.com/collection/954550/1920x1080">
-              </div>
-
-              <!-- 自适应大图 -->
-              <script>
-              	  var carouselResize = function() {
-              	  	  var h = document.body.clientHeight / 3;
-	                  var img2 = new Image();
-	                  var imageTag2 = document.getElementById("carousel-img2");
-	                  img2.src = imageTag2.src;
-	                  img2.onload=function(){
-	                    if (img2.width / img2.height <= document.body.clientWidth / h) {
-	                      imageTag2.style.width = document.body.clientWidth + "px";
-	                    } else {
-	                      imageTag2.style.height = h + "px";
-	                      imageTag2.style.marginLeft = -(h * img2.width / img2.height - document.body.clientWidth) / 2 + "px";
-	                    }
-	                  };
-              	  };
-                  carouselResize();
-              </script>
-            
         </div>
 
         <!-- Controls -->
@@ -291,31 +266,6 @@
     </div>
     <footer class="article-footer">
       
-      
-        
-	<div id="comment">
-		<!-- 来必力City版安装代码 -->
-		<div id="lv-container" data-id="city" data-uid="MTAyMC8yOTQ4MS82MDQ5">
-		<script type="text/javascript">
-		   (function(d, s) {
-		       var j, e = d.getElementsByTagName(s)[0];
-
-		       if (typeof LivereTower === 'function') { return; }
-
-		       j = d.createElement(s);
-		       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-		       j.async = true;
-
-		       e.parentNode.insertBefore(j, e);
-		   })(document, 'script');
-		</script>
-		<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
-		</div>
-		<!-- City版安装代码已完成 -->
-	</div>
-
-
-
       
       
     </footer>
@@ -424,11 +374,6 @@
 
 
 
-
-
-	<div style="display: none;">
-    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
-  </div>
 
 
 
